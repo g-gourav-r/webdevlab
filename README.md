@@ -9,5 +9,10 @@
 - [Program 6 - Help box]()
 - [Program 7 - XML]()
 - [Program 8 - ]()
-- [Program 9 - Name suggestion AJAX program]()
+- [Program 9 - Name suggestion AJAX program](https://github.com/g-gourav-r/webdevlab/tree/main/Program_9)
+    * Open Xampp control panel.
+    * Click on "start" next to Apache.
+    * If Apache fails to start, click on "services" and search for Virtual machine, right click and click on stop.
+    * Paste the php and html file in htdocs which is located in xampp <- C drive.
+  ---
 - [Program 10 - Login Page]()
