@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sorting NUmbers</title>
+        <script language="Javascript">
+            function ndesc(){
+                var num = document.forms["frm1"].num.value;
+                var num = num.split(',');
+                var asc_order = num.sort();
+                var rev_sort = asc_order.reverse();
+                document.forms["frm1"].desc.value=rev_sort;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="frm1">
+            <center>
+                <h3>Numbers in Descending order</h3><br>
+                Enter the numbers seperated by commas: <input type="text" name="num"><br><br>
+                <input type="button" value="Sort in Descending order" name="lnwords" onclick="ndesc()"><br><br>
+                Numbers in Descending order: <input type="text" name="desc" id="">
+            </center>
+        </form>
+    </body>
+</html>
