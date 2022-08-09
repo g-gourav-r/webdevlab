@@ -9,6 +9,11 @@
 - [Program 6 - Help box]()
 - [Program 7 - XML](https://github.com/g-gourav-r/webdevlab/tree/main/Program_7)
 - [Program 8 - Book Store ](https://github.com/g-gourav-r/webdevlab/tree/main/Program_8)
+    * Open Xampp control panel.
+    * Click on "start" next to Apache.
+    * If Apache fails to start, click on "services" and search for Virtual machine, right click and click on stop.
+    * Paste the php and html file in a folder created in htdocs <- xampp <- C drive.
+  ---
 - [Program 9 - Name suggestion AJAX program](https://github.com/g-gourav-r/webdevlab/tree/main/Program_9)
     * Open Xampp control panel.
     * Click on "start" next to Apache.
