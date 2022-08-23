@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Helpbox</title>
+    <script type="text/javascript">
+      function show(elem){
+        elem.style.display="block";
+      }
+      function hide(elem){
+        elem.style.display="";
+      }
+    </script>
+    <style media="screen">  
+      .tip{
+        display:none;
+        background-color:mistyrose;
+        border:1px solid black;
+        width:150px;
+        padding:0px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Helpbox</h1>
+      <form name="frm1">
+        <textarea onmouseover="show(tip1)" onmouseout="hide(tip1)"name="name" rows="8" cols="80" ></textarea>
+        <br><br><div id="tip1" class="tip" >
+          <p  >This is a Helpbox</p>
+        </div>
+      </form>
+    </center>
+  </body>
+</html>
